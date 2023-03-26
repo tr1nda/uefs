@@ -19,6 +19,12 @@ adicione(Paciente *primeiro_paciente)
 
 	printf("Digite o nome do novo paciente: ");
 	scanf("%s", novo_paciente->nome);
+
+	puts("5 → Emergência");
+	puts("4 → Muito Urgente");
+	puts("3 → Urgente");
+	puts("2 → Pouco Urgente");
+	puts("1 → Não Urgente");
 	
 	printf("Digite a prioridade: ");
 	scanf("%d", &novo_paciente->prioridade);
@@ -40,9 +46,12 @@ atenda(Paciente *primeiro_paciente)
 {
 	Paciente old_primeiro_paciente = *primeiro_paciente;
 
-	*primeiro_paciente = (*primeiro_paciente)->proximo;
-
-	free(old_primeiro_paciente);
+	if (old_primeiro_paciente == NULL)
+		puts("Não há pacientes na fila");
+	else {
+		*primeiro_paciente = (*primeiro_paciente)->proximo;
+		free(old_primeiro_paciente);
+	}
 }
 
 void
@@ -53,9 +62,9 @@ imprima(Paciente *primeiro_paciente)
 	
 		printf("Nome: %s\n", ptr->nome);
 		printf("Prioridade: %d\n", ptr->prioridade);
-
-		puts("###################");
 	}
+
+	puts("###################");
 }
 
 int
