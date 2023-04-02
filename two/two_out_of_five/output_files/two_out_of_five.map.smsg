@@ -1,0 +1,10 @@
+Info (10281): Verilog HDL Declaration information at display.v(7): object "a" differs only in case from object "A" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/display.v Line: 7
+Info (10281): Verilog HDL Declaration information at display.v(7): object "b" differs only in case from object "B" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/display.v Line: 7
+Info (10281): Verilog HDL Declaration information at display.v(7): object "c" differs only in case from object "C" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/display.v Line: 7
+Info (10281): Verilog HDL Declaration information at display.v(7): object "d" differs only in case from object "D" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/display.v Line: 7
+Info (10281): Verilog HDL Declaration information at display.v(7): object "e" differs only in case from object "E" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/display.v Line: 7
+Info (10281): Verilog HDL Declaration information at two_out_of_five.v(16): object "a" differs only in case from object "A" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/two_out_of_five.v Line: 16
+Info (10281): Verilog HDL Declaration information at two_out_of_five.v(16): object "b" differs only in case from object "B" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/two_out_of_five.v Line: 16
+Info (10281): Verilog HDL Declaration information at two_out_of_five.v(16): object "c" differs only in case from object "C" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/two_out_of_five.v Line: 16
+Info (10281): Verilog HDL Declaration information at two_out_of_five.v(16): object "d" differs only in case from object "D" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/two_out_of_five.v Line: 16
+Info (10281): Verilog HDL Declaration information at two_out_of_five.v(16): object "e" differs only in case from object "E" in the same scope File: /home/aluno/Documentos/2_out_of_5-main/two_out_of_five.v Line: 16

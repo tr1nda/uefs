@@ -1,0 +1,3 @@
+module matrix (ch1, ch2, ch3);
+	input ch1, ch2, ch3;			// MSB → LSB
+endmodule;

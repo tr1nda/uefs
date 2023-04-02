@@ -1,0 +1,28 @@
+module validator(vout, a, b, c, d, e);
+	input a, b, c, d, e;
+	output vout;
+	
+	wire dn;
+	wire n1, n2;
+	wire o1, o2, o3, o4, o5, o6, o7, o8, o9, o10;
+	
+	// 1
+	nand(n1, a, b, c);
+	and(o1, n1, d, e);
+	
+	// 2
+	nand(n2, a, b);
+	not(dn, d);
+	and(o2, n2, c, dn, e);
+	
+	// 3
+	not(en, e);
+	and(o3, n2, c, d, en);
+	
+	// 4
+	
+	
+	// end
+	or(v, o1, o2, o3, o4, o5, o6, o7, o8, o9, o10)
+	
+endmodule
