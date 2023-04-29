@@ -298,4 +298,11 @@ destroy_tree(struct tree *root)
 	 */
 	
 	/* code */
+	if(root)->left == NULL && (root)->right == NULL{
+	free(root);
+	return NULL;	
+	}
+	root-> left = leaf_delete(root->left);
+	root-> right = leaf_delete(root->right);
+	return root;
 }
